@@ -1,0 +1,7 @@
+w1 = str(input("Enter a string : "))
+w2 = str(input("Enter a string : "))
+
+if w1==w2:
+    print("This string is a palindrome")
+else :
+    print("This string is not a palindrome")
