@@ -1,0 +1,13 @@
+def factorial(n):
+
+    if n>0:
+        if n==0 or n==1:
+            return 1
+        else:
+            return n*factorial(n-1) 
+    else:
+        print("Negative numbers doesn't have factorial")
+         
+a = int(input("Enter a positive integer : "))
+if factorial(a)!=None:
+    print("The factorial of ",a , "is",factorial(a))
